@@ -333,12 +333,31 @@ header {
 }
 
 .texto {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8rem;
-    max-width: 1600px;
+    margin-bottom: 50px;
+    line-height:3rem;
+    font-weight: bold;
 }
 
+.curriculo {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 200px;
+    height:50px;
+    border: 0.2rem solid var(--terciary);
+    font-size: 2rem;
+    border-radius:5px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.curriculo {
+    margin-left: 555px;
+}
+
+/*roda-pe*/
+
 footer {
+    margin-top: 30px;
 	text-align: center;
 	background: #080808;
     width: 100vw;
@@ -352,12 +371,11 @@ footer {
 
 .portfolio {
 	color: #BBBBBB;
-    font-size: 13px;
 }
 
 /*telas*/
 
-@media (max-width: 1600px) {
+@media (max-width: 1200px) {
     html {
         font-size: 8px;
     }
@@ -455,7 +473,7 @@ footer {
         text-align: center;
     }
 
-@media (max-width: 414px => 750px) {
+@media (max-width: 400px) {
 
     html {
         font-size: 8px;
