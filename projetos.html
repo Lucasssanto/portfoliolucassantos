@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Lucas Santos | Desenvolvedor Web</title>
+   
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+           <div class="header-wrapper">
+            <h1 title="Lucas Santos | Desenvolvedor"><img src="img/logo-roda-pe-foote.png" alt="Lucas Desenvolvedor" class="logo" ></h1>
+            <div class="menu ">
+                <nav>
+                    <div class="menu_mobile ">
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                    </div>
+                    <ul>
+                        <li><a href="#header ">Home</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#conhecimentos ">Conhecimentos</a></li>
+                        <li><a href="#sobre-mim">Sobre</a></li>
+                        <li><a href="mailto:lucasdo123ssantos@gmail.com"><link rel="stylesheet" href="menu-buttom"> Contato</a></li>
+                        <li><a href="https://github.com/Lucasssanto" target="_blank "><i class="fa fa-github "
+                                    aria-hidden="true ">Github</i></a></li>
+                        <li><a href="https://www.linkedin.com/feed/ " target="_blank "><i class="fa fa-linkedin-square "
+                                    aria-hidden="true ">Linkedin</i></a></li>
+                    </ul>
+                </nav>
+            </div>
+           </div>
+        </div>
+    </header>
+    
+    <section>
+        <div class="projetos">
+            
+        </div>
+
+    </section>
+
+    <footer>
+        <img src="img/logo-roda-pe-foote.png" alt="Lucas Santos | Desenvolvedor Web">
+        <p class="copyright">&copy;Copyright Potfolio Lucas Santos 2022</p>
+        <p class="portfolio">Atenção este portfólio  sempre estará passando por atualização!</p>
+</footer>
+</body>
+<script type=" text/javascript ">
+        window.onload = function () {
+            document.querySelector(".menu_mobile ").addEventListener("click ", function () {
+                if (document.querySelector(".menu nav ul ").style.display == "flex ") {
+                    document.querySelector(".menu nav ul ").style.display = "none ";
+                } else {
+                    document.querySelector(".menu nav ul ").style.display = "flex ";
+                }
+            });
+        };
+    </script>
+</html>

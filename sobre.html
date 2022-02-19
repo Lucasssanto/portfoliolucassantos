@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Lucas Santos | Desenvolvedor Web</title>
+   
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+           <div class="header-wrapper">
+            <h1 title="Lucas Santos | Desenvolvedor"><img src="img/logo-roda-pe-foote.png" alt="Lucas Desenvolvedor" class="logo" ></h1>
+            <div class="menu ">
+                <nav>
+                    <div class="menu_mobile ">
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                        <div class="mm_line "></div>
+                    </div>
+                    <ul>
+                        <li><a href="#header ">Home</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#conhecimentos ">Conhecimentos</a></li>
+                        <li><a href="#sobre-mim">Sobre</a></li>
+                        <li><a href="mailto:lucasdo123ssantos@gmail.com"><link rel="stylesheet" href="menu-buttom"> Contato</a></li>
+                        <li><a href="https://github.com/Lucasssanto" target="_blank "><i class="fa fa-github "
+                                    aria-hidden="true ">Github</i></a></li>
+                        <li><a href="https://www.linkedin.com/feed/ " target="_blank "><i class="fa fa-linkedin-square "
+                                    aria-hidden="true ">Linkedin</i></a></li>
+                    </ul>
+                </nav>
+            </div>
+           </div>
+        </div>
+    </header>
+    <main>
+    <section id="sobre-mim ">
+        <div class="container ">
+            <div class="sobre-mim ">
+                <div class="sobre-mim-esquerda ">  
+                    <p>Quem sou eu?</p>
+                    <img src="img/Logo-pensativo.png" class="pensativo" >
+                </div>
+                <div class="sobre-mim-direita ">
+                    <div class="titulo ">
+                        
+                        <h1 class="biografia">Sobre mim</h1>
+                    </div>
+                    <p style="padding-left: 30px auto;" class="texto">Fui apresentado ao mundo da tecnologia ainda bem jovem. Naquela
+                        &eacute;poca n&atilde;o havia condi&ccedil;&otilde;es financeiras para que pudesse fazer um
+                        curso, mal tinha computador ou se quer um smartphone. Quando podia acompanhava o
+                        desenvolvimento de novas tecnologias pela TV. Hoje com os meus 24 anos posso dizer que tive
+                        o privil&eacute;gio de cursar uma universidade mesmo n&atilde;o encontrando uma oportunidade
+                        de come&ccedil;ar a atuar na &aacute;rea pela qual sou apaixonado. A cada novo desafio que
+                        tenho enfrentado me faz querer buscar novos desafios. Gosto de ir mais al&eacute;m, sei que
+                        o desconhecido &eacute; maravilhoso quando e alcan&ccedil;ado Bem enquanto n&atilde;o
+                        encontro uma oportunidade de atuar no que mais gosto continuo estudando, sempre com o foco
+                        de aperfei&ccedil;oamento. Recentemente me formei em Análise e Desenvolvimento de Sistemas. Sou fascinado por
+                        resolu&ccedil;&otilde;es de problemas. Atualmente cursando Curso de Engenharia de Software.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+</body>
+<script type=" text/javascript ">
+        window.onload = function () {
+            document.querySelector(".menu_mobile ").addEventListener("click ", function () {
+                if (document.querySelector(".menu nav ul ").style.display == "flex ") {
+                    document.querySelector(".menu nav ul ").style.display = "none ";
+                } else {
+                    document.querySelector(".menu nav ul ").style.display = "flex ";
+                }
+            });
+        };
+    </script>
+</html>
