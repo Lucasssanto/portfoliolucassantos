@@ -349,6 +349,11 @@ header {
     transition: all 0.2s ease-in-out 0s;
 }
 
+.curriculo:hover {
+    border-color: greenyellow;
+    color:greenyellow;
+}
+
 .curriculo {
     margin-left: 555px;
 }
@@ -413,11 +418,84 @@ header {
 }
 
 .texto-agadecimento {
-    padding: 30px;
+    padding: 10px;
     margin-bottom: 50px;
     line-height:3rem;
     font-weight: bold;
     font-size: 1.8rem;
+}
+
+/*projetos-exemplos*/
+
+.sobre-projetos {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: -30px;
+}
+
+.titulo-sobre-projetos {
+    padding: 40px;
+    align-items: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.titulo-sobre-projetos {
+    margin-top: 50px;
+    margin-left: 530px;
+}
+
+.logo-babaearia-alura {
+    width: 590px;
+    height: 55%; 
+    margin: 40px;
+    
+}
+
+.logo-bababearia-dois {
+    width: 590px;
+    height: 50%; 
+    margin: 40px;
+}
+
+.titulo-babaeraria-alura {
+    padding: 10px;
+    margin-bottom: 50px;
+    line-height:3rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.btn-barbearia {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 200px;
+    height:50px;
+    border: 0.2rem solid var(--terciary);
+    font-size: 2rem;
+    border-radius:5px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.titulo-barbeararia-agradecimento {
+    margin-bottom: -20px;
+    line-height:3rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.btn-barbearia {
+    margin-top: -30px;
+    margin-left: 590px;
+}
+
+.btn-barbearia:hover {
+    border-color: greenyellow;
+    color:greenyellow;
 }
 
 /*roda-pe*/
