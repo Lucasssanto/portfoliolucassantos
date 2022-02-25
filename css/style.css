@@ -393,6 +393,8 @@ header {
 }
 
 .bio-portfolio {
+    margin-top: 30px;
+    padding: 30px;
     align-items: center;
     color: #fff;
     font-size: 35px;
@@ -409,8 +411,9 @@ header {
 }
 
 .bio-agradecimento {
-    margin-top: 40px;
-    margin-left: 495px;
+    margin-top: 30px;
+    padding: 40px;
+    margin-left: 485px;
     align-items: center;
     color: #fff;
     font-size: 35px;
@@ -418,11 +421,29 @@ header {
 }
 
 .texto-agadecimento {
+    margin-top: 30px;
     padding: 10px;
     margin-bottom: 50px;
     line-height:3rem;
     font-weight: bold;
     font-size: 1.8rem;
+}
+
+
+.titulo-barbeararia-agradecimento {
+    margin-top: 30px;
+    padding: 40px;
+    align-items: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.titulo-sobre-agradecimento {
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 510px;
 }
 
 /*projetos-exemplos*/
@@ -435,18 +456,7 @@ header {
     padding: -30px;
 }
 
-.titulo-sobre-projetos {
-    padding: 40px;
-    align-items: center;
-    color: #fff;
-    font-size: 35px;
-    font-weight: bold;
-}
 
-.titulo-sobre-projetos {
-    margin-top: 50px;
-    margin-left: 530px;
-}
 
 .logo-babaearia-alura {
     width: 590px;
