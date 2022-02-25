@@ -361,6 +361,8 @@ header {
 /*sobre*/
 
 .texto-sobre-mim {
+    margin-top: 30px;
+    padding: 10px;
     margin-bottom: 50px;
     line-height:30px;
     font-weight: bold;
