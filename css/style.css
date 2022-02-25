@@ -360,6 +360,12 @@ header {
 
 /*sobre*/
 
+.pensativo {
+    padding: 50px;
+    margin-top: 30px;
+    
+}
+
 .texto-sobre-mim {
     margin-top: 30px;
     padding: 10px;
@@ -368,7 +374,6 @@ header {
     font-weight: bold;
     font-size: 1.8rem;
 }
-
 
 
 .portfolio-lucas {
@@ -451,14 +456,20 @@ header {
 /*projetos-exemplos*/
 
 .sobre-projetos {
-   
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8rem;
     text-align: center;
     padding: -30px;
 }
 
-
+.sobre-titulo-projetos {
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: 540px;
+    font-size: 35px;
+    font-weight: bold;
+}
 
 .logo-babaearia-alura {
     width: 590px;
