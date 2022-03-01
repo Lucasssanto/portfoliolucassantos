@@ -472,19 +472,13 @@ header {
 }
 
 .logo-babaearia-alura {
+    margin-top: 50px;
     width: 590px;
     height: 55%; 
-    margin: 40px;
-    
+    margin-left: 50px;
 }
 
-.logo-bababearia-dois {
-    width: 590px;
-    height: 50%; 
-    margin: 40px;
-}
-
-.titulo-babaeraria-alura {
+.titulo-barbearia-alura {
     padding: 10px;
     margin-bottom: 50px;
     line-height:3rem;
@@ -505,7 +499,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8rem;
     text-align: center;
-    padding: 40px
+    padding: 40px;
 }
 
 .titulo-barbeararia-agradecimento {
@@ -513,6 +507,13 @@ header {
     line-height:3rem;
     font-weight: bold;
     font-size: 1.8rem;
+}
+
+p {
+    margin-top: 20px;
+    line-height:3rem;
+    font-weight: bold;
+    font-size: 2..rem;
 }
 
 .btn-barbearia {
